@@ -1,4 +1,4 @@
-# DOcker
+# Docker
 - Docker is an opensource centralized platform designed to create, deploy and run
 applications.
 - Docker uses container on the host OS to run applications. It allows applications to use same
