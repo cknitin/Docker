@@ -104,5 +104,11 @@ Now create container from this image
 ```
 # ls 
 ```
+
+```
 # cd tmp
+```
+
+```
 # ls (you will get all of your files)
+```
