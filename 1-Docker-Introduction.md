@@ -24,7 +24,7 @@ across every step of the deployment process.
 - It took very less time to create container.
 
 
-Disadvantages of Docker:
+## Disadvantages of Docker:
 - Docker is not a good solution for application that requires rich GUI.
 - Difficult to manage large number of containers.
 - Docker doesn’t provide cross platform compatibility means if an application is designed to
