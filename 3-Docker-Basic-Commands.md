@@ -33,16 +33,25 @@ sudo docker -v
 - To check service start or not (status)
 ```
 # docker service status
+
+Ubuntu
+sudo systemctl status docker
 ```
 
 - To start:
 ```
 #docker service start
+
+Ubuntu
+sudo systemctl start docker
 ```
 
 - To stop: 
 ```
 # docker service stop
+
+Ubuntu
+sudo systemctl stop docker
 ```
 
 - To start container
@@ -55,7 +64,7 @@ sudo docker -v
 # docker attach container_name
 ```
 
-- To see all comtainers
+- To see all containers
 ```
 # docker ps -a
 ```
