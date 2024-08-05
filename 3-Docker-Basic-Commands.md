@@ -1,3 +1,13 @@
+# Install Docker
+```
+yum install docker -Y
+
+apt install docker -Y
+
+sudo docker -v
+
+```
+
 # Basic Docker Commands:
 
 - To see all images present in your local repo:
