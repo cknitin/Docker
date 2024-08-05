@@ -13,4 +13,7 @@ Delete all stopped containers:
 Delete all images: 
 ```
 # docker rmi -f $(docker images -q)
+
+# docker image prune --all --force
+
 ```
