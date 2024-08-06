@@ -35,7 +35,7 @@ RUN echo “Nagarjuna hota” > /tmp/testfile
 To create image out of Dockerfile
 ```
 
-docker build -t iamcknitin/testAPI-image:latest .
+docker build -t iamcknitin/testapi-image:latest .
 
 # docker build -t myfile
 #docker ps -a
@@ -44,6 +44,8 @@ docker build -t iamcknitin/testAPI-image:latest .
 ### docker image
 Now create container from the above image
 ```
+#docker run -it --name mycontapi iamcknitin/testapi-image:latest /bin/bash
+
 #docker run -it --name mycon mying /bin/bash
 ```
 
