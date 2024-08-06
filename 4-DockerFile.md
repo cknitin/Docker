@@ -34,6 +34,9 @@ RUN echo “Nagarjuna hota” > /tmp/testfile
 
 To create image out of Dockerfile
 ```
+
+docker build -t iamcknitin/testAPI-image:latest .
+
 # docker build -t myfile
 #docker ps -a
 ```
