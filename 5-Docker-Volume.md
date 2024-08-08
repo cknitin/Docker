@@ -20,9 +20,10 @@
 ## Creating Volume from Dockerfile:
 Create a Dockerfile and write
 
-FROM ubuntu
+
 
 ```
+FROM ubuntu
 VOLUME “myvolume”
 ```
 
