@@ -37,6 +37,15 @@ docker volume create image-volume
 docker run -it -v image-volumne:/shared-volume --name my-container-01 ubuntu
 ```
 
+```
+ls
+cd /shared-volume
+echo “GeeksforGeeks” > geeksforgeeks.txt
+ls
+exit
+```
+
+
 
 ```
 FROM ubuntu
