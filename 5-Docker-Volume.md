@@ -17,8 +17,8 @@
 - Attach volume to containers.
 - On deleting container volume doesn’t delete.
 
-## Creating Volume from Dockerfile:
-Create a Dockerfile and write
+
+# Lab 1
 
 > To see all volumne
 ```
@@ -28,24 +28,46 @@ docker volume ls
 > To Create volumne
 
 ```
-docker volume create image-volume
+docker volume create img-vol
 ```
 
 > To create container with volume
 
 ```
-docker run -it -v image-volumne:/shared-volume --name my-container-01 ubuntu
+docker run -it -v img-vol:shared-volume --name con1 ubuntu
 ```
 
 ```
 ls
 cd /shared-volume
-echo “GeeksforGeeks” > geeksforgeeks.txt
+echo “Hello world” > hello-world.txt
 ls
 exit
 ```
 
+> To create another container with volume
 
+```
+docker run -it -v img-vol:shared-volume --name con2 ubuntu
+```
+
+```
+ls
+cd /shared-volume
+
+You must see below file
+hello-world.txt
+```
+
+> To remove volume
+```
+docker volume rm img-vol
+```
+
+#Lab 2
+
+## Creating Volume from Dockerfile:
+Create a Dockerfile and write
 
 ```
 FROM ubuntu
