@@ -20,6 +20,22 @@
 ## Creating Volume from Dockerfile:
 Create a Dockerfile and write
 
+> To see all volumne
+```
+docker volume ls
+```
+
+> To Create volumne
+
+```
+docker volume create image-volume
+```
+
+> To create container with volume
+
+```
+docker run -it -v image-volumne:/shared-volume --name my-container-01 ubuntu
+```
 
 
 ```
